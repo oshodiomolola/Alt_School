@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(104, 89, 104);
+  display: flex;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.img-text {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #fdf1b4;
+padding: 10px 5px;
+font-weight: bold;
+  border-radius: 0 50px 50px 0;
+}
+
+.sub-heading {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.brand-name {
+  display: block;
+  background-color: white;
+  padding: 80px 50px;
+  font-size: 15px;
+  font-weight: normal;
+}
